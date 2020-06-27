@@ -1,0 +1,7 @@
+t1=("Nitesh",21,"KTM")
+print("Before adding ",t1)
+l1=list(t1)
+item=input("Enter item to add in tuple : ")
+l1.append(item)
+t1=tuple(l1)
+print("After addition ",t1)

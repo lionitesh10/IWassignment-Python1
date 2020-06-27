@@ -1,0 +1,5 @@
+my_string = input("Enter your string : ")
+nt_id = my_string.index("not")
+poor_id = my_string.index("poor", nt_id)
+res = my_string.replace(my_string[nt_id:poor_id+4], "good")
+print(res)
